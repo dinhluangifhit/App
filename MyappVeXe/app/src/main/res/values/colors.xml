@@ -11,5 +11,6 @@
     <color name="my_secondary">#673AB7</color>
     <color name="lavender">#8692f7</color>
     <color name="blue">#E3EDF6</color>
-
+    <color name="dark_blue">#32357a</color>
+    <color name="light_blue">#f2f1f6</color>
 </resources>

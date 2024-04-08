@@ -5,18 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Customer.HomePage">
-        <LinearLayout
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints">
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            tools:ignore="UselessParent">
+            android:orientation="vertical">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                     android:layout_width="412dp"
                     android:layout_height="169dp"
                     app:srcCompat="@drawable/bground_home"
-                    tools:ignore="ContentDescription,MissingConstraints"
+                    tools:ignore="MissingConstraints"
                     tools:layout_editor_absoluteX="-1dp"
                     tools:layout_editor_absoluteY="-19dp" />
 
@@ -51,7 +51,7 @@
                             android:layout_width="40dp"
                             android:layout_height="39dp"
                             android:background="@drawable/circle"
-                            tools:ignore="ContentDescription,MissingConstraints"
+                            tools:ignore="MissingConstraints"
                             tools:srcCompat="@drawable/circle" />
 
                         <TextView
@@ -62,8 +62,7 @@
                             android:text="Xin chào"
                             android:textColor="@color/black"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            tools:ignore="HardcodedText" />
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
                             android:id="@+id/txtCusName"
@@ -86,8 +85,7 @@
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintVertical_bias="0.0"
-                            app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
-                            tools:ignore="ContentDescription,HardcodedText" />
+                            app:srcCompat="@drawable/ic_baseline_exit_to_app_24" />
 
 
                         <TextView
@@ -95,6 +93,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="5dp"
+                            android:text="1"
                             android:textAlignment="center"
                             android:textSize="8sp"
                             app:layout_constraintBottom_toBottomOf="@+id/imageView2"
@@ -102,7 +101,7 @@
                             app:layout_constraintHorizontal_bias="0.0"
 
                             app:layout_constraintTop_toTopOf="parent"
-                            tools:ignore="SmallSp,UnknownId"
+                            tools:ignore="UnknownId"
                             tools:textColor="@color/white" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -127,8 +126,7 @@
                                 android:layout_height="52dp"
                                 android:layout_alignParentStart="true"
                                 android:padding="17dp"
-                                app:srcCompat="@drawable/point"
-                                tools:ignore="ContentDescription" />
+                                app:srcCompat="@drawable/point" />
 
                             <ImageView
                                 android:id="@+id/location"
@@ -137,18 +135,16 @@
                                 android:layout_below="@id/point"
                                 android:layout_alignParentStart="true"
                                 android:padding="12dp"
-                                app:srcCompat="@drawable/location_pin"
-                                tools:ignore="ContentDescription" />
+                                app:srcCompat="@drawable/location_pin" />
 
                             <ImageView
                                 android:id="@+id/calender"
                                 android:layout_width="52dp"
                                 android:layout_height="52dp"
                                 android:layout_below="@id/location"
-                                android:layout_alignParentStart="true"
+                                android:layout_alignParentLeft="true"
                                 android:padding="15dp"
-                                app:srcCompat="@drawable/calendar"
-                                tools:ignore="ContentDescription" />
+                                app:srcCompat="@drawable/calendar" />
 
 
                             <AutoCompleteTextView
@@ -159,8 +155,7 @@
                                 android:layout_toEndOf="@+id/point"
                                 android:ems="10"
                                 android:hint="Nơi xuất phát"
-                                android:inputType="textPersonName"
-                                tools:ignore="HardcodedText" />
+                                android:inputType="textPersonName" />
 
                             <AutoCompleteTextView
                                 android:id="@+id/autoCompleteLocationEnd"
@@ -183,8 +178,7 @@
                                 android:layout_toEndOf="@+id/calender"
                                 android:ems="10"
                                 android:hint="Ngày đi"
-
-                                android:onClick="showDialogDate" />
+                                android:inputType="date" />
 
                         </RelativeLayout>
 
@@ -322,29 +316,26 @@
                 android:id="@+id/listShowTripHome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="60dp"
                 tools:ignore="MissingConstraints" />
-
         </LinearLayout>
 
     </LinearLayout>
 
 
 
-
-
-
-
-
-
-            <androidx.coordinatorlayout.widget.CoordinatorLayout
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="60dp"
             android:layout_gravity="bottom"
             android:radius="10dp"
             android:background="@color/blue">
@@ -451,9 +442,7 @@
 
             </LinearLayout>
         </com.google.android.material.bottomnavigation.BottomNavigationView>
-        </androidx.coordinatorlayout.widget.CoordinatorLayout>
-
-
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

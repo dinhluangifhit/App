@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="100dp" /> <!-- Đây là bán kính của hình tròn, điều chỉnh giá trị để tạo ra các góc tròn -->
+    <solid android:color="@color/dark_blue" /> <!-- Màu nền của button -->
+</shape>
