@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Customer.EditCustomerDialogActivity"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Họ và Tên: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/dialogNameCus"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Email: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/dlgEmailCus"
+                android:layout_width="0dp"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Giới tính: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+            <RadioGroup
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radioDlgNam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nam"/>
+                <RadioButton
+                    android:id="@+id/radioDlgNu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nữ"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.2"
+               android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Email: "
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Ngày sinh: "
+                        android:textSize="20dp"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/dlgDateBirthCus"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+
+                        />
+                    <ImageView
+                        android:id="@+id/dlgImgDatePicker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_calendar_today_24"
+                        android:clickable="true"
+                        android:layout_marginTop="10dp"
+                        />
+                </TableRow>
+            </TableLayout>
+
+          </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:text="SĐT: "
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/dlgPhoneCus"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:autofillHints=""
+                    android:drawablePadding="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:imeOptions="actionNext"
+                    />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4">
+
+            <Button
+                android:id="@+id/bntEditCustomer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Thay đổi"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:background="@color/teal_700"
+                />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+            <Button
+                android:id="@+id/bntExitCus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:text="Thoát"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:background="#F80000"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>

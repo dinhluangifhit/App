@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyActivity"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/my_primary"
+            android:alpha="0.7"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="28dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_bus"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GO BUS"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="32dp"
+                    android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/racio_scollvew"
+            android:backgroundTint="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:background="@drawable/radio_buton">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Đăng Ký"
+                    android:textColor="@color/my_secondary"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.7"
+                    android:text="Đăng ký ngay để nhận nhiều ưu đãi" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và Tên"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/edRegisterName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tên đăng nhập"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/edRegisterUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mật khẩu"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edPassWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:longClickable="false"
+                    android:singleLine="true" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vui lòng nhập lại mật khẩu"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edEndPassWord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:autofillHints=""
+                    android:drawablePadding="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:padding="10dp"
+                    android:longClickable="false"
+                    android:singleLine="true" />
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edRegisterEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:drawablePadding="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:longClickable="false"
+                    android:imeOptions="actionNext"
+                   />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Giới tính"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/radioNam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nam"/>
+                    <RadioButton
+                        android:id="@+id/radioNu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nữ"/>
+                </RadioGroup>
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày sinh"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+
+                  <TableLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      >
+                      <TableRow
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <EditText
+                              android:id="@+id/edRegisterBirth"
+                              android:layout_width="0dp"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:inputType="text"
+                              />
+                          <ImageView
+                              android:id="@+id/imgDatePicker"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:src="@drawable/ic_baseline_calendar_today_24"
+                              android:clickable="true"
+                              android:layout_marginTop="10dp"
+                              android:onClick="showDatePickDialog"/>
+                      </TableRow>
+                  </TableLayout>
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Số điện thoại"
+                    android:alpha="0.7"
+                    android:textStyle="bold"/>
+                <EditText
+                    android:id="@+id/edRegisterPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autofillHints=""
+                    android:drawablePadding="10dp"
+                    android:importantForAutofill="no"
+                    android:inputType="phone"
+                    android:imeOptions="actionNext"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+<!--                <CheckBox-->
+<!--                    android:id="@+id/chBox"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Tôi không phải là robot"/>-->
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp" />
+
+                <Button
+                    android:id="@+id/bntDangKy"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:layout_marginHorizontal="70dp"
+                    android:background="@drawable/radio_buton"
+                    android:backgroundTint="@android:color/holo_purple"
+                    android:text="Đăng Ký"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="hoặc"
+                    android:textSize="20dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+
+                <Button
+                    android:id="@+id/bntDangNhapRegisTer"
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp"
+                    android:text="Đăng Nhập"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:onClick="onDangNhapClick"
+                    android:background="@drawable/radio_buton"
+                    android:backgroundTint="@android:color/holo_blue_dark"
+                    android:layout_marginHorizontal="70dp"
+
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_face_foreground" />
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_youtube_foreground" />
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"/>
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@mipmap/ic_twer_foreground" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>

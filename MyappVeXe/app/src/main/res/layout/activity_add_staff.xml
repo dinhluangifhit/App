@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddStaffActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/lavender"
+            >
+
+            <TextView
+                android:id="@+id/txtBackList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_baseline_arrow_back_34"
+                android:gravity="center"
+                android:text="Thêm vào Nhân Viên"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:textSize="20dp"
+                android:text="Đăng ký Nhân Viên" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="36dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Họ và Tên"
+                android:inputType="text|textMultiLine"
+                android:alpha="0.7"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edStaffName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên đăng nhập"
+                android:alpha="0.7"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edStaffUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mật khẩu"
+                android:alpha="0.7"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edStaffPassWord"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:inputType="textPassword"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:alpha="0.7"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edStaffEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SĐT"
+                android:alpha="0.7"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edStaffPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bntAddStaff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đồng Ý"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:background="@color/teal_200"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer.HomePage">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="412dp"
+                    android:layout_height="169dp"
+                    app:srcCompat="@drawable/bground_home"
+                    tools:ignore="ContentDescription,MissingConstraints"
+                    tools:layout_editor_absoluteX="-1dp"
+                    tools:layout_editor_absoluteY="-19dp" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraint1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="16dp">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="40dp"
+                            android:layout_height="39dp"
+                            android:background="@drawable/circle"
+                            tools:ignore="ContentDescription,MissingConstraints"
+                            tools:srcCompat="@drawable/circle" />
+
+                        <TextView
+                            android:id="@+id/textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:text="Xin chào"
+                            android:textColor="@color/black"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="HardcodedText" />
+
+                        <TextView
+                            android:id="@+id/txtCusName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="50dp"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textview" />
+
+                        <ImageView
+                            android:id="@+id/logOut"
+                            android:layout_width="30dp"
+                            android:layout_height="25dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.0"
+                            app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
+                            tools:ignore="ContentDescription,HardcodedText" />
+
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:textAlignment="center"
+                            android:textSize="8sp"
+                            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+                            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                            app:layout_constraintHorizontal_bias="0.0"
+
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="SmallSp,UnknownId"
+                            tools:textColor="@color/white" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edittext_background"
+                        android:elevation="8dp">
+
+                        <RelativeLayout
+                            android:layout_width="361dp"
+                            android:layout_height="158dp"
+                            tools:ignore="MissingConstraints"
+                            tools:layout_editor_absoluteX="1dp"
+                            tools:layout_editor_absoluteY="1dp">
+
+                            <ImageView
+                                android:id="@+id/point"
+                                android:layout_width="52dp"
+                                android:layout_height="52dp"
+                                android:layout_alignParentStart="true"
+                                android:padding="17dp"
+                                app:srcCompat="@drawable/point"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageView
+                                android:id="@+id/location"
+                                android:layout_width="52dp"
+                                android:layout_height="52dp"
+                                android:layout_below="@id/point"
+                                android:layout_alignParentStart="true"
+                                android:padding="12dp"
+                                app:srcCompat="@drawable/location_pin"
+                                tools:ignore="ContentDescription" />
+
+                            <ImageView
+                                android:id="@+id/calender"
+                                android:layout_width="52dp"
+                                android:layout_height="52dp"
+                                android:layout_below="@id/location"
+                                android:layout_alignParentStart="true"
+                                android:padding="15dp"
+                                app:srcCompat="@drawable/calendar"
+                                tools:ignore="ContentDescription" />
+
+
+                            <AutoCompleteTextView
+                                android:id="@+id/autoCompleteLocationStar"
+                                android:layout_width="match_parent"
+                                android:layout_height="52dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_toEndOf="@+id/point"
+                                android:ems="10"
+                                android:hint="Nơi xuất phát"
+                                android:inputType="textPersonName"
+                                tools:ignore="HardcodedText" />
+
+                            <AutoCompleteTextView
+                                android:id="@+id/autoCompleteLocationEnd"
+                                android:layout_width="match_parent"
+                                android:layout_height="52dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_toEndOf="@+id/location"
+                                android:ems="10"
+                                android:hint="Bạn muốn đi đâu?"
+                                android:inputType="textPersonName" />
+
+                            <EditText
+                                android:id="@+id/edDateStar"
+                                android:layout_width="match_parent"
+                                android:layout_height="52dp"
+                                android:layout_below="@id/autoCompleteLocationEnd"
+                                android:layout_centerInParent="true"
+                                android:layout_marginStart="0dp"
+                                android:layout_toEndOf="@+id/calender"
+                                android:ems="10"
+                                android:hint="Ngày đi"
+
+                                android:onClick="showDialogDate" />
+
+                        </RelativeLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <Button
+                        android:id="@+id/searchTrip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tìm kiếm"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="87dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView4"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="12dp"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/check_mark"
+                                tools:ignore="MissingConstraints" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Chắc chắn có chỗ"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                                app:layout_constraintVertical_bias="1.0" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="87dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView5"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="12dp"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/headphones"
+                                tools:ignore="MissingConstraints" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginTop="11dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Hỗ trợ 24/7"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="87dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView6"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="12dp"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/promotion"
+                                tools:ignore="MissingConstraints" />
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="58dp"
+                                android:layout_height="29dp"
+                                android:layout_marginTop="11dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Nhiều ưu đãi"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="88dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="5dp">
+
+                            <ImageView
+                                android:id="@+id/imageView7"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_marginTop="12dp"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:srcCompat="@drawable/money_bag"
+                                tools:ignore="MissingConstraints" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="62dp"
+                                android:layout_height="31dp"
+                                android:layout_marginTop="11dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="Thanh toán đa dạng"
+                                android:textSize="12dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ListView
+                android:id="@+id/listShowTripHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:radius="10dp"
+            android:background="@color/blue">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/home" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Trang chủ"
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/history" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Lịch sử"
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/notification" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Thông báo"
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="6dp"
+                        app:srcCompat="@drawable/user" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="33dp"
+                        android:layout_marginTop="4dp"
+                        android:text="Tài khoản"
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

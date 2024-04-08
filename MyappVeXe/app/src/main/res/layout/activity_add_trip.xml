@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category.AddTripActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/lavender"
+                >
+
+                <TextView
+                    android:id="@+id/txtBackListTrip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_arrow_back_34"
+                    android:gravity="center"
+                    android:text="Thêm chuyển đi"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="0.3"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Xuất phát: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteLocationTrip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                     />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.3"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Thời gian xuất phát: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editTimeBusStar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+
+                        android:focusable="false"
+                        android:onClick="showDialogTime"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.5"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Ngày đi: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editDateBusStar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+
+                        android:focusable="false"
+                        android:onClick="showDialogDate"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Điểm điến: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/autoCompleteStationTrip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                       />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Thời gian dến: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editTimeBusEnd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:focusable="false"
+                        android:onClick="showDialogTimeEnd"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Thời gian dự kiến: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/timeEnd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:inputType="number"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Giá vé: "
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/priceTrip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:inputType="number"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Chỗ ngồi: "
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:inputType="number"/>
+
+                    <EditText
+                        android:id="@+id/seatTrip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:inputType="number"/>
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/black" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="0.3">
+
+                    <Button
+                        android:id="@+id/bntAddTrip"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.3"
+                        android:background="@color/teal_700"
+                        android:text="Thêm vào"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/time_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/time_start"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="10dp" />
+
+                <TextView
+                    android:id="@+id/time_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/distance"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/point1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_alignParentStart="true"
+                    android:padding="17dp"
+                    app:srcCompat="@drawable/point" />
+
+                <ImageView
+                    android:id="@+id/location1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:layout_below="@id/point"
+                    android:layout_alignParentStart="true"
+                    android:padding="12dp"
+                    app:srcCompat="@drawable/location_pin" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/textViewLocationStar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:id="@+id/textViewLocationEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:gravity="right"/>
+
+                <TextView
+                    android:id="@+id/textViewSeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/textViewDateStar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/drawable/bg.xml" value="0.13" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/drawable/bground_home.xml" value="0.1505" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/drawable/circle.xml" value="0.13" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/drawable/circle_red.xml" value="0.13" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/drawable/edittext_background.xml" value="0.13" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/layout/activity_edit_customer_dialog.xml" value="0.1" />
+        <entry key="..\:/HongNhung/luan/MyappVeXe/app/src/main/res/layout/activity_home_page.xml" value="0.15" />
+        <entry key="..\:/LTTBDD/BanVeXe/MyappVeXe/app/src/main/res/layout/activity_edit_customer_dialog.xml" value="0.25" />
+        <entry key="..\:/LTTBDD/BanVeXe/MyappVeXe/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/LTTBDD/BanVeXe/MyappVeXe/app/src/main/res/layout/layout.xml" value="0.25" />
+        <entry key="..\:/LTTBDD/BanVeXe/MyappVeXe/app/src/main/res/layout/listview_ticket.xml" value="0.2" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/back_1.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/back_1_1.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/back_2.xml" value="0.2545" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/back_2_2.xml" value="0.2555" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/bg_admin_top.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/dialog_background.xml" value="0.175" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/dialogbg.xml" value="0.1995" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.177" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_baseline_arrow_back_34.xml" value="0.177" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_face_background.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/ic_youtube_background.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/racio_scollvew.xml" value="0.175" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/radio_buton.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/drawable/rounder_image_border.xml" value="0.1775" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_add_admin.xml" value="0.26145833333333335" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_add_location.xml" value="0.2359375" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_add_location_dialog.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_add_staff.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_add_trip.xml" value="0.2" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_admin.xml" value="0.264" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_category.xml" value="0.23703703703703705" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_dang_ky.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_dang_nhap.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_danh_sach_admin.xml" value="0.2" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_danh_sach_khach_hang_acitivity.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_danh_sach_nhan_vien.xml" value="0.19212962962962962" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_detail_customer.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_detailed.xml" value="0.1" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_edit_customer_dialog.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_edit_staff_dialog.xml" value="0.2" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_home_page.xml" value="0.4" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_location.xml" value="0.264" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/content_main.xml" value="0.264" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/fragment_gallery.xml" value="0.2359375" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/listview_item.xml" value="0.1" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/nav_header.xml" value="0.4" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/layout/nav_header_main.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/bottom_menu_nav.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/main_activity2.xml" value="0.25" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/menu_nav.xml" value="0.24895833333333334" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/menu_nav_admin.xml" value="0.24895833333333334" />
+        <entry key="..\:/New folder/luan/MyappVeXe/app/src/main/res/menu/nav_menu_admin.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/drawable/button_radio.xml" value="0.1385" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/drawable/edittext_background.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/drawable/ic_bus.xml" value="0.185" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/drawable/racio_scollvew.xml" value="0.1385" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/drawable/radio_buton.xml" value="0.1385" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/layout/activity_dang_ky.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1875" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/MyappVeXe/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_add_location.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_add_trip.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_admin.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_category.xml" value="0.1" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_dang_ky.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_dang_nhap.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_danh_sach_khach_hang_acitivity.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_danh_sach_nhan_vien.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_detail_customer.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_detail_trip.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_detailed.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_edit_customer_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_edit_staff_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_home_page.xml" value="0.4" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_location.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/item_ticket_trip.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/listview_item.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/listview_ticket.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/layout/nav_header.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/menu/bottom_menu_nav.xml" value="0.25" />
+        <entry key="..\:/Users/ASUS/Desktop/LTDD/luan/MyappVeXe/app/src/main/res/menu/menu_nav.xml" value="0.25" />
+        <entry key="..\:/luan/MyappVeXe/app/src/main/res/layout/activity_dang_ky.xml" value="0.22" />
+        <entry key="..\:/luan/MyappVeXe/app/src/main/res/layout/activity_dang_nhap.xml" value="0.1" />
+        <entry key="..\:/luan/MyappVeXe/app/src/main/res/layout/activity_main.xml" value="0.1111111111111111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

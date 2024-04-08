@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Customer.DetailCustomerActivity">
+
+    <TextView
+        android:id="@+id/detailCus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Thông tin Khách Hàng"
+        android:textSize="24dp"
+        android:textColor="@color/lavender"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardImage"
+        android:layout_width="280dp"
+        android:layout_height="151dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <ImageView
+            android:id="@+id/detailMages"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/profile" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/detailNameCus"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/detailEmailCus"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/detailGenderCus"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/detailBirthCus"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:id="@+id/detailSdtCus"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.2"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:id="@+id/bntEditCus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:background="@color/teal_700"
+                android:text="Sửa"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+
+            <Button
+                android:id="@+id/bntDeleteCus"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.3"
+                android:background="#F80000"
+                android:text="Xóa"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
