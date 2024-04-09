@@ -12,7 +12,7 @@ import com.example.myappvexe.Category.CategoryActivity;
 import com.example.myappvexe.Customer.DanhSachKhachHangAcitivity;
 import com.example.myappvexe.Location.LocationActivity;
 
-public class AdminActivity extends AppCompatActivity {
+public class AdminActivity extends BackActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

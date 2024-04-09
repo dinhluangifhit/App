@@ -19,7 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myappvexe.Customer.HomePage;
 
-public class DangNhapActivity extends AppCompatActivity {
+public class DangNhapActivity extends BackActivity {
     private AuthenticationManager authManager;
     private EditText EdUser, EdPassWord;
     private boolean passwordVisible;

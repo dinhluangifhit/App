@@ -3,7 +3,7 @@ package com.example.myappvexe;
 import android.content.Context;
 import org.mindrot.jbcrypt.BCrypt;
 
-public class AuthenticationManager {
+public class AuthenticationManager extends BackActivity {
     SQLiteHelper dbHelper, dbHelperAdmin;
     public AuthenticationManager(Context context){
         dbHelper = new SQLiteHelper(context);

@@ -16,7 +16,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DanhSachNhanVienActivity extends AppCompatActivity {
+public class DanhSachNhanVienActivity extends BackActivity {
     TextView TxtAddStaff, TxtBackHomeAdmin;
     ListView ListShowStaff;
     private  MyArrayAdapter adapter;

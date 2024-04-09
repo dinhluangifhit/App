@@ -14,7 +14,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class AddStaffActivity extends AppCompatActivity {
+public class AddStaffActivity extends BackActivity {
     private SQLiteHelper sqLiteHelper;
     EditText EdStaffName, EdStaffUserName,EdStaffPassWord, EdStaffEmail, EdStaffPhone;
     Button BntAddStaff;

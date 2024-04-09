@@ -1,6 +1,6 @@
 package com.example.myappvexe;
 
-public class Admin {
+public class Admin extends BackActivity {
     private long id;
     private String name;
     private String username;

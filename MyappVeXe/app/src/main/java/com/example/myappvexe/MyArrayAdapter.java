@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MyArrayAdapter {
+public class MyArrayAdapter extends  BackActivity{
     //Database fields
     private SQLiteDatabase database;
     private SQLiteHelper dbHelper;

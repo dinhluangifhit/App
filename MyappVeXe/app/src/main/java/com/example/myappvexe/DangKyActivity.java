@@ -18,7 +18,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Calendar;
 
 
-public class DangKyActivity extends AppCompatActivity {
+public class DangKyActivity extends BackActivity {
     private SQLiteHelper sQLiteHelper;
     EditText EdRegisterBirth;
     EditText EdRegisterName,EdRegisterUserName,EdPassWord,EdEndPassWord,EdRegisterEmail,EdRegisterPhone;
