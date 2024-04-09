@@ -12,7 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 
-public class EditStaffDialogActivity extends AppCompatActivity {
+public class EditStaffDialogActivity extends BackActivity {
     private Context context;
     private AlertDialog dialog;
     private Staff staff;

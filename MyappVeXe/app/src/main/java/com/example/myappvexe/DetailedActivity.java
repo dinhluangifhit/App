@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DetailedActivity extends AppCompatActivity {
+public class DetailedActivity extends BackActivity {
     private SQLiteHelper sqLiteHelper;
     private TextView DetailNameStaff, DetailEmailStaff, DetailPhoneStaff;
     private Button BntRevisionStaff, BntDetailAddStaff,BntDeleteStaff;

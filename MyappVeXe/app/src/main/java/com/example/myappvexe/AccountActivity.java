@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class AccountActivity extends AppCompatActivity {
+public class AccountActivity extends BackActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    tools:context=".CaidatActivity">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchToggleNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bật thông báo"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvAppVersion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Phiên bản: 1.0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCheckUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kiểm tra cập nhật"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"/>
+
+
+    <TextView
+        android:id="@+id/tvDeleteAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa tài khoản"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:clickable="true"/>
+
+</LinearLayout>
